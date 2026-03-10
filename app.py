@@ -31,13 +31,16 @@ def clean_title(text):
 
 def get_features(text):
     # Transform text using the saved vectorizer
-    tfidf_features = vectorizer.transform([text]).todense()
+    tfidf_features = vectorizer.transform([text]).toarray()
+    
     # Calculate additional features used in notebook
     text_len = len(text)
     word_count = len(text.split())
+    
     # Combine features: TF-IDF + Length + Word Count
     features = np.append(tfidf_features, [[text_len]], axis=1)
     features = np.append(features, [[word_count]], axis=1)
+    
     return features
 
 # --- 3. STREAMLIT UI ---

@@ -34,7 +34,7 @@ Predicting content engagement is crucial for content creators and publishers. Th
 
 ## 🚀 Live Demo
 
-**[View the live Streamlit app](https://predicting-article-engagement-based-on-title-using-machine-learning.streamlit.app/)**
+**[View the live Streamlit app]([https://predicting-article-engagement-based-on-title-using-machine-learning.streamlit.app/](https://predicting-article-engagement-based-on-title-machine-learning.streamlit.app/))**
 
 Try the interactive predictor to get engagement predictions for your article titles!
 
